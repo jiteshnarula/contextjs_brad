@@ -1,7 +1,7 @@
 import Header from "./components/Layout/Header";
 import "../node_modules/bootstrap/dist/css/bootstrap.min.css";
 import { Provider } from "./context";
-import { BrowserRouter as Router, Route, Switch } from "react-router-dom";
+import { HashRouter as Router, Route, Switch } from "react-router-dom";
 
 import About from "./components/pages/About";
 import Contacts from "./components/Contact/Contacts";
